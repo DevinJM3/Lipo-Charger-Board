@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "JST_XH")(type "KiCad")(uri "${KIPRJMOD}/Symbols/S2B-XH-A.kicad_sym")(options "")(descr ""))
+)
