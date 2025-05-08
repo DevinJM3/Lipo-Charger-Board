@@ -256,23 +256,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J2"
+				(at -11.43 -1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_14P"
-				(at 0 19.685 0)
+				(at 14.224 19.558 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "a_Library:Usb-C"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -627,7 +629,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
@@ -702,7 +704,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
@@ -2061,13 +2063,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U3"
 				(at 7.62 -0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "FM2113"
@@ -2078,7 +2079,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2155,7 +2156,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -1.27 -13.97 90)
 					(length 2.54)
 					(name "OD"
@@ -2173,7 +2174,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 3.81 -13.97 90)
 					(length 2.54)
 					(name "OC"
@@ -2731,7 +2732,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW1"
-				(at 4.826 -5.842 0)
+				(at 7.62 -6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2739,7 +2740,7 @@
 				)
 			)
 			(property "Value" "SK12D07VG4"
-				(at 9.144 4.318 0)
+				(at 9.906 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2945,7 +2946,7 @@
 				)
 			)
 			(symbol "OS102011MA1QN1_1_1"
-				(pin unspecified line
+				(pin input line
 					(at 3.81 0 0)
 					(length 3.81)
 					(name "1"
@@ -2963,7 +2964,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 10.16 -8.89 90)
 					(length 3.81)
 					(name "2"
@@ -2981,7 +2982,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 16.51 0 180)
 					(length 3.81)
 					(name "3"
@@ -2992,131 +2993,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4874,16 +4750,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 64.77) (xy 83.82 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8e18017-94fa-4a31-9fde-b931277b6767")
-	)
-	(wire
-		(pts
 			(xy 39.37 160.02) (xy 45.72 160.02)
 		)
 		(stroke
@@ -5511,8 +5377,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31921444-f170-409c-add7-f87eeafcae48")
-		(property "Reference" "+5v1"
-			(at 259.588 29.464 90)
+		(property "Reference" "PWR_OUT1"
+			(at 257.302 29.464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5428,7 @@
 		(instances
 			(project ""
 				(path "/b34478b6-339b-4f78-905c-fce6e8fbd016"
-					(reference "+5v1")
+					(reference "PWR_OUT1")
 					(unit 1)
 				)
 			)
@@ -6803,72 +6669,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 252.73 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64073985-1b5a-4975-8975-e2c85bd8d361")
-		(property "Reference" "#PWR014"
-			(at 252.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 252.73 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 252.73 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd3b4e21-824f-4c32-9139-6bc0ba8ce106")
-		)
-		(instances
-			(project ""
-				(path "/b34478b6-339b-4f78-905c-fce6e8fbd016"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 147.32 31.75 0)
 		(unit 1)
@@ -8051,8 +7851,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce83eaf9-fe84-4945-a77f-940cd8ad2440")
-		(property "Reference" "GND1"
-			(at 259.588 53.594 90)
+		(property "Reference" "GND_OUT1"
+			(at 257.556 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +7902,7 @@
 		(instances
 			(project "LipoCharger"
 				(path "/b34478b6-339b-4f78-905c-fce6e8fbd016"
-					(reference "GND1")
+					(reference "GND_OUT1")
 					(unit 1)
 				)
 			)

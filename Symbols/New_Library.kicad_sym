@@ -6,13 +6,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "U3"
 			(at 7.62 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "FM2113"
@@ -23,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering"
 			(at 0 0 0)
 			(effects
 				(font
@@ -100,7 +99,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -1.27 -13.97 90)
 				(length 2.54)
 				(name "OD"
@@ -118,7 +117,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 3.81 -13.97 90)
 				(length 2.54)
 				(name "OC"
