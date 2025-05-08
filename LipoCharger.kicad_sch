@@ -3493,8 +3493,8 @@
 		(uuid 20861aaf-855c-4f79-9203-7c512be10b72)
 	)
 	(rectangle
-		(start 13.97 95.25)
-		(end 104.14 176.53)
+		(start 13.97 96.52)
+		(end 104.14 177.8)
 		(stroke
 			(width 0)
 			(type default)
@@ -3548,7 +3548,7 @@
 	)
 	(text "USB-C Power"
 		(exclude_from_sim no)
-		(at 61.468 99.822 0)
+		(at 61.468 101.092 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -3626,9 +3626,9 @@
 		)
 		(uuid "516cde7f-6814-46b5-a5e8-ab86826ec8c5")
 	)
-	(text_box "LCSC:\n	C2988369 : USB-C Connector\n	C20606560: 5.1v Zener Diodes"
+	(text_box "LCSC:\n	C2988369 : USB-C Connector\n	C19077401: 5.1v Zener Diodes"
 		(exclude_from_sim no)
-		(at 60.96 167.64 0)
+		(at 60.96 168.91 0)
 		(size 41.91 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3666,7 +3666,7 @@
 		)
 		(uuid "bdd47134-1ed7-418d-adea-5c790b24c7c4")
 	)
-	(text_box "LCSC:\n	C2832124: FM2113\n	C7437077: 2300A"
+	(text_box "LCSC:\n	C2832124: FM2113\n	C7437077: 2300A\n	C157931 : JST XH Connector"
 		(exclude_from_sim no)
 		(at 60.96 82.55 0)
 		(size 41.91 10.16)
@@ -3708,7 +3708,7 @@
 	)
 	(text_box "Features:\n	- 5v USB Power\n	- Clamps USB power to 5.1v max\n"
 		(exclude_from_sim no)
-		(at 15.24 167.64 0)
+		(at 15.24 168.91 0)
 		(size 44.45 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3745,7 +3745,7 @@
 		(uuid "0323837b-081f-4fa8-a9c5-0b1cc4953514")
 	)
 	(junction
-		(at 45.72 149.86)
+		(at 45.72 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10815faa-c113-4c7d-8bf2-b8d97fd6de5b")
@@ -3793,7 +3793,7 @@
 		(uuid "6329170e-f76a-4405-87ea-fcfe3fb14469")
 	)
 	(junction
-		(at 39.37 160.02)
+		(at 39.37 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74651dba-b388-476f-8cff-8bdcc34104f2")
@@ -3889,28 +3889,28 @@
 		(uuid "fa89f18f-dc53-4c9e-91c5-8a4f4287ff2b")
 	)
 	(no_connect
-		(at 48.26 132.08)
+		(at 48.26 133.35)
 		(uuid "026294d7-fc8f-44c9-bed0-eccda2e8bf55")
 	)
 	(no_connect
-		(at 71.12 111.76)
+		(at 71.12 113.03)
 		(uuid "3a18bc13-2ea3-4912-86f0-4d7984a0283b")
 	)
 	(no_connect
-		(at 48.26 134.62)
+		(at 48.26 135.89)
 		(uuid "5c2759ca-e3bb-40ca-9303-eb8307e6f800")
 	)
 	(no_connect
-		(at 48.26 129.54)
+		(at 48.26 130.81)
 		(uuid "b2c25c0f-cc22-4791-b696-4270a0bd5993")
 	)
 	(no_connect
-		(at 48.26 137.16)
+		(at 48.26 138.43)
 		(uuid "c43f1af9-5be0-4caa-82e4-afc15ffd4774")
 	)
 	(wire
 		(pts
-			(xy 33.02 142.24) (xy 48.26 142.24)
+			(xy 33.02 143.51) (xy 48.26 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3920,7 +3920,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 158.75) (xy 45.72 160.02)
+			(xy 45.72 160.02) (xy 45.72 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4200,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 144.78) (xy 39.37 144.78)
+			(xy 48.26 146.05) (xy 39.37 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4330,7 +4330,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 160.02) (xy 33.02 154.94)
+			(xy 33.02 161.29) (xy 33.02 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4460,7 +4460,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 149.86) (xy 45.72 151.13)
+			(xy 45.72 151.13) (xy 45.72 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4470,7 +4470,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 160.02) (xy 39.37 160.02)
+			(xy 33.02 161.29) (xy 39.37 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4480,7 +4480,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 144.78) (xy 39.37 147.32)
+			(xy 39.37 146.05) (xy 39.37 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4560,7 +4560,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 110.49) (xy 63.5 111.76)
+			(xy 63.5 111.76) (xy 63.5 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4570,7 +4570,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 142.24) (xy 33.02 147.32)
+			(xy 33.02 143.51) (xy 33.02 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4750,7 +4750,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 160.02) (xy 45.72 160.02)
+			(xy 39.37 161.29) (xy 45.72 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4860,7 +4860,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 154.94) (xy 39.37 160.02)
+			(xy 39.37 156.21) (xy 39.37 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4870,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 149.86) (xy 45.72 149.86)
+			(xy 48.26 151.13) (xy 45.72 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5006,7 +5006,7 @@
 				)
 			)
 		)
-		(property "Value" "2300A"
+		(property "Value" "SI2300A"
 			(at 71.12 68.58 90)
 			(effects
 				(font
@@ -5061,6 +5061,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C347480"
+			(at 71.12 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,6 +5141,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 212.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C59461"
 			(at 212.09 38.1 0)
 			(effects
 				(font
@@ -5284,6 +5302,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C965799"
+			(at 135.89 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7f9a203-3da9-4805-ad7c-6a46b28d2a28")
 		)
@@ -5345,6 +5372,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 252.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C59461"
 			(at 252.73 46.99 0)
 			(effects
 				(font
@@ -5488,6 +5524,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C103198"
+			(at 128.27 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3493f04-3f0b-44a5-a992-a3a5b6d797f2")
 		)
@@ -5550,6 +5595,15 @@
 		)
 		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
 			(at 154.178 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C725790"
+			(at 153.67 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,6 +5701,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C393937"
+			(at 224.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6c4dca26-8bc3-4ab6-88e7-b87dc1d23075")
 		)
@@ -5712,6 +5775,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 139.7 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C98220"
+			(at 139.7 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,6 +5860,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2907022"
+			(at 168.91 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aef5d6a7-0d1d-4b90-b10a-86c8f2ea33d4")
 		)
@@ -5805,7 +5886,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 110.49 180)
+		(at 63.5 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5814,7 +5895,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bb5bfdd-1862-4f9a-b5d1-24afe4ce66d0")
 		(property "Reference" "#PWR09"
-			(at 63.5 104.14 0)
+			(at 63.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5904,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 105.41 0)
+			(at 63.5 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,7 +5912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 110.49 0)
+			(at 63.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +5921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 110.49 0)
+			(at 63.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5930,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 110.49 0)
+			(at 63.5 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,6 +6011,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C157931"
+			(at 24.13 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6016,7 +6106,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 160.02 0)
+		(at 39.37 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6024,7 +6114,7 @@
 		(dnp no)
 		(uuid "40d3463f-cc86-445a-9faa-855118824b16")
 		(property "Reference" "#PWR010"
-			(at 39.37 166.37 0)
+			(at 39.37 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6123,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 163.576 0)
+			(at 39.37 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +6131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 160.02 0)
+			(at 39.37 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +6140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 160.02 0)
+			(at 39.37 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6149,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 160.02 0)
+			(at 39.37 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,6 +6215,15 @@
 			)
 		)
 		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+			(at 227.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84817"
 			(at 227.33 44.45 0)
 			(effects
 				(font
@@ -6216,6 +6315,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 128.27 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19171301"
+			(at 128.27 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,6 +6482,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C908680"
+			(at 240.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b57d00a-0afe-44ba-a358-b7d59f8bb9c0")
 		)
@@ -6508,6 +6625,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C103198"
+			(at 135.89 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "584fdd4a-4dac-45e1-98f8-05dca17ea446")
 		)
@@ -6577,6 +6703,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14663"
+			(at 46.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44cf61d5-b8d0-48c6-8d74-06eb448d37d7")
 		)
@@ -6636,6 +6771,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2832124"
 			(at 63.5 39.37 0)
 			(effects
 				(font
@@ -6722,6 +6866,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C5126047"
+			(at 147.32 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "924bd0ec-ef20-456a-ada0-341e922c410c")
 		)
@@ -6739,7 +6892,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 33.02 151.13 0)
+		(at 33.02 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6747,7 +6900,7 @@
 		(dnp no)
 		(uuid "71f92b0d-537e-474f-9a90-804139ec784a")
 		(property "Reference" "R8"
-			(at 35.052 149.86 90)
+			(at 35.052 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +6909,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 33.02 149.098 90)
+			(at 33.02 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +6918,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 31.242 151.13 90)
+			(at 31.242 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +6927,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 151.13 0)
+			(at 33.02 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,7 +6936,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 33.02 151.13 0)
+			(at 33.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3016319"
+			(at 33.02 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6808,7 +6970,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 45.72 149.86 0)
+		(at 45.72 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6816,7 +6978,7 @@
 		(dnp no)
 		(uuid "73a34229-1e9e-44fa-a923-13bcc584309c")
 		(property "Reference" "#PWR08"
-			(at 45.72 153.67 0)
+			(at 45.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +6987,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 43.18 146.304 0)
+			(at 43.18 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +6996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 149.86 0)
+			(at 45.72 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +7005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 149.86 0)
+			(at 45.72 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,7 +7014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 45.72 149.86 0)
+			(at 45.72 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,6 +7081,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C98220"
+			(at 245.11 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7245,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 39.37 151.13 0)
+		(at 39.37 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7082,7 +7253,7 @@
 		(dnp no)
 		(uuid "8414727c-3571-4c25-a0b9-4b60c66dc20a")
 		(property "Reference" "R9"
-			(at 41.402 149.86 90)
+			(at 41.402 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,7 +7262,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 39.37 149.098 90)
+			(at 39.37 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7100,7 +7271,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 37.592 151.13 90)
+			(at 37.592 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +7280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 151.13 0)
+			(at 39.37 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +7289,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 39.37 151.13 0)
+			(at 39.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3016319"
+			(at 39.37 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,6 +7442,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C19702"
+			(at 176.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ff176984-cec6-4817-9df2-5f1747531fb7")
 		)
@@ -7329,6 +7518,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C3016239"
+			(at 41.91 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e53cec4-0c11-4a93-87cb-a6fb3de17dac")
 		)
@@ -7361,7 +7559,7 @@
 				)
 			)
 		)
-		(property "Value" "2300A"
+		(property "Value" "SI2300A"
 			(at 58.42 68.58 90)
 			(effects
 				(font
@@ -7416,6 +7614,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 43.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C347480"
+			(at 58.42 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,6 +7767,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C436465"
+			(at 227.33 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7e27f7f-e000-416c-aabe-b441d86313e5")
 		)
@@ -7621,6 +7837,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19702"
 			(at 118.11 45.72 0)
 			(effects
 				(font
@@ -7976,7 +8201,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 63.5 134.62 180)
+		(at 63.5 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7984,7 +8209,7 @@
 		(dnp no)
 		(uuid "dfec83fc-0719-4e34-aca7-39a4568322de")
 		(property "Reference" "J2"
-			(at 74.93 133.3499 0)
+			(at 74.93 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,7 +8218,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 49.276 154.178 0)
+			(at 49.276 155.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,7 +8227,7 @@
 			)
 		)
 		(property "Footprint" "a_Library:Usb-C"
-			(at 59.69 134.62 0)
+			(at 59.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,7 +8236,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 59.69 134.62 0)
+			(at 59.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +8245,16 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 63.5 134.62 0)
+			(at 63.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2988369"
+			(at 63.5 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,6 +8370,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2907022"
+			(at 83.82 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e7dec20-131f-4fe9-8d2e-5155e04ebd7e")
 		)
@@ -8153,7 +8396,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 45.72 154.94 270)
+		(at 45.72 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8161,7 +8404,7 @@
 		(dnp no)
 		(uuid "f80ed241-3ac9-4598-90c0-26237bc619db")
 		(property "Reference" "D6"
-			(at 45.72 152.654 90)
+			(at 45.72 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +8413,7 @@
 			)
 		)
 		(property "Value" "5.1v"
-			(at 45.72 157.48 90)
+			(at 45.72 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8422,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-			(at 45.72 154.94 0)
+			(at 45.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8431,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 154.94 0)
+			(at 45.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8440,16 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 45.72 154.94 0)
+			(at 45.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19077401"
+			(at 45.72 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,6 +8519,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2933257"
+			(at 245.11 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
