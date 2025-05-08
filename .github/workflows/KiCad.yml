@@ -1,0 +1,40 @@
+name: KiCad CI/CD
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+    
+      - name: Run KiCad actions
+        uses: actions-for-kicad/kicad-actions@v1-k9.0
+        with:
+          schematic_file_name: ./LipoCharger.kicad_sch
+          symbol_libraries: "symbol-library=./Symbols"
+          run_erc: true
+          schematic_output_pdf: true
+    
+          pcb_file_name: ./LipoCharger.kicad_pcb
+          footprint_libraries: "footprint-library=./Models"
+          run_drc: true
+          pcb_output_gerbers_and_drill: true
+    
+      - name: Upload schematic
+        uses: actions/upload-artifact@v4
+        with:
+          name: Schematic
+          path: ./schematic.pdf
+    
+      - name: Upload gerbers and drill file
+        uses: actions/upload-artifact@v4
+        with:
+          name: Gerbers
+          path: ./gerbers
