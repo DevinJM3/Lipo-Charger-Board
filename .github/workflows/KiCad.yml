@@ -26,15 +26,18 @@ jobs:
           footprint_libraries: "footprint-library=./Models"
           run_drc: true
           pcb_output_gerbers_and_drill: true
+          
     
       - name: Upload schematic
         uses: actions/upload-artifact@v4
+        if: ${{ success() || failure() }}
         with:
           name: Schematic
           path: ./schematic.pdf
     
       - name: Upload gerbers and drill file
         uses: actions/upload-artifact@v4
+        if: ${{ success() || failure() }}
         with:
           name: Gerbers
           path: ./gerbers
