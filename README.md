@@ -37,31 +37,31 @@ This project is a custom-designed Lithium Polymer battery charging and protectio
 
 ### Bill of Materials
 
-| Designator |                Footprint                | Quantity |           Value           | LCSC Part # |
-|------------|-----------------------------------------|----------|---------------------------|-------------|
-| C1, C2     |0603                                     |2         |10uF                       |C19702       |
-| C3         |0603                                     |1         |0.1uF                      |C14663       |
-| C4, C5     |0603                                     |2         |22uF                       |C59461       |
-| D1         |0603                                     |1         |RED                        |C965799      |
-| D2         |0603                                     |1         |GREEN                      |C19171301    |
-| D3         |D_SMA-SMB_Universal_Handsoldering        |1         |SS34                       |C908680      |
-| D4, D5     |D_SMA-SMB_Universal_Handsoldering        |2         |B340A                      |C85098       |
-| D6         |Nexperia_CFP3_SOD-123W                   |1         |5.1v                       |C19077401    |
-| J1         |JST_S2B-XH-A                             |1         |S2B-XH-A                   |C157931      |
-| J2         |Usb-C                                    |1         |USB_C_Receptacle_USB2.0_14P|C2988369     |
-| L1         |WE-PD2_1054                              |1         |22uH                       |C436465      |
-| Q1, Q2     |SOT-23_Handsoldering                     |2         |SI2300A                    |C347480      |
-| R1, R5     |0603                                     |2         |2k                         |C2907022     |
-| R10        |0603                                     |1         |73.2k                      |C2933257     |
-| R11, R7    |0603                                     |2         |10k                        |C98220       |
-| R2, R3     |0603                                     |2         |1k                         |C103198      |
-| R4         |0603                                     |1         |100                        |C3016239     |
-| R6         |0603                                     |1         |0.4                        |C5126047     |
-| R8, R9     |0603                                     |2         |5.1k                       |C3016319     |
-| SW1        |SlideSwitch                              |1         |SK12D07VG4                 |C393937      |
-| U1         |SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm|1         |TP4056-42-ESOP8            |C725790      |
-| U2         |SOT-23-6                                 |1         |MT3608                     |C84817       |
-| U3         |TSOT-23-6_HandSoldering                  |1         |FM2113                     |C2832124     |
+| Designator |                Footprint                | Quantity |      Value      | LCSC Part # |
+|------------|-----------------------------------------|----------|-----------------|-------------|
+| C1, C2     |0603                                     |2         |10uF             |C19702       |
+| C3         |0603                                     |1         |0.1uF            |C14663       |
+| C4, C5     |0603                                     |2         |22uF             |C59461       |
+| D1         |0603                                     |1         |RED              |C965799      |
+| D2         |0603                                     |1         |GREEN            |C19171301    |
+| D3         |D_SMA-SMB_Universal_Handsoldering        |1         |SS34             |C908680      |
+| D4, D5     |D_SMA-SMB_Universal_Handsoldering        |2         |B340A            |C85098       |
+| D6         |Nexperia_CFP3_SOD-123W                   |1         |5.1v             |C19077401    |
+| J1         |JST_S2B-XH-A                             |1         |S2B-XH-A         |C157931      |
+| J2         |Usb-C                                    |1         |USB_C_USB2.0_14P |C2988369     |
+| L1         |WE-PD2_1054                              |1         |22uH             |C436465      |
+| Q1, Q2     |SOT-23_Handsoldering                     |2         |SI2300A          |C347480      |
+| R1, R5     |0603                                     |2         |2k               |C2907022     |
+| R10        |0603                                     |1         |73.2k            |C2933257     |
+| R11, R7    |0603                                     |2         |10k              |C98220       |
+| R2, R3     |0603                                     |2         |1k               |C103198      |
+| R4         |0603                                     |1         |100              |C3016239     |
+| R6         |0603                                     |1         |0.4              |C5126047     |
+| R8, R9     |0603                                     |2         |5.1k             |C3016319     |
+| SW1        |SlideSwitch                              |1         |SK12D07VG4       |C393937      |
+| U1         |SOIC-8                                   |1         |TP4056-42-ESOP8  |C725790      |
+| U2         |SOT-23-6                                 |1         |MT3608           |C84817       |
+| U3         |TSOT-23-6_HandSoldering                  |1         |FM2113           |C2832124     |
 
 
 ## Usage
