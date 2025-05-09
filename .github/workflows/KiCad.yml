@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
     
       - name: Run KiCad actions
-        uses: actions-for-kicad/kicad-actions@v1.3-k9 # Uses the latest KiCad 9.x.x version (currently 9.0.2)
+        uses: actions-for-kicad/kicad-actions@v1.3-k9.0 # Uses the latest KiCad 9.0.x version
         with:
           schematic_file_name: ./LipoCharger.kicad_sch
           symbol_libraries: "symbol-library=./Symbols"
