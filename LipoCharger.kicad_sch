@@ -3891,7 +3891,7 @@
 		)
 		(uuid "fba4ccf4-baf0-4d44-9a35-d0f4c8b7a31e")
 	)
-	(text_box "LCSC:\n	C84817   : MT3608\n	C42931138: 10uH Inductor\n	C137678  : 82k Resistor (0603)\n	C98220   : 10k Resistor (0603)\n	C5377812 : MBR230LSFT1G Diode\n	C393937  : Slide Switch"
+	(text_box "LCSC:\n	C84817   : MT3608\n	C42931138: 10uH Inductor\n	C137678  : 82k Resistor (0603)\n	C137801  : 11k Resistor (0603)\n	C5377812 : MBR230LSFT1G Diode\n	C393937  : Slide Switch"
 		(exclude_from_sim no)
 		(at 238.76 77.47 0)
 		(size 43.18 15.24)
@@ -5535,7 +5535,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C19702"
+		(property "LCSC Part #" "C5137636"
 			(at 113.03 46.99 0)
 			(effects
 				(font
@@ -5909,7 +5909,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C59461"
+		(property "LCSC Part #" "C6119863"
 			(at 256.54 52.07 0)
 			(effects
 				(font
@@ -7342,6 +7342,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C347480"
+			(at 58.42 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f71dd42-e6fd-4221-9b44-77728172e4b4")
 		)
@@ -7414,7 +7423,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C5137636"
 			(at 46.99 45.72 0)
 			(effects
 				(font
@@ -7577,7 +7586,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C59461"
+		(property "LCSC Part #" "C6119863"
 			(at 261.62 52.07 0)
 			(effects
 				(font
@@ -7799,7 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C98220"
+		(property "LCSC Part #" "C137801"
 			(at 252.73 57.15 90)
 			(effects
 				(font
@@ -8151,7 +8160,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C19702"
+		(property "LCSC Part #" "C6119863"
 			(at 179.07 60.96 0)
 			(effects
 				(font
@@ -8480,6 +8489,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C98220"
+			(at 203.2 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a70773b5-4e38-4841-846d-d17e896ab99d")
 		)
@@ -8641,6 +8659,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C347480"
+			(at 71.12 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5109387-fba7-41cf-9496-f740fc1cffee")
 		)
@@ -8790,7 +8817,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C19702"
+		(property "LCSC Part #" "C6119863"
 			(at 120.65 46.99 0)
 			(effects
 				(font

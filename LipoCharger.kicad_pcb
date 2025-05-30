@@ -253,6 +253,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C347480"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b579f5d3-62ef-40cd-a280-2e5d6576f1fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b05cd9f1-3c35-4fd0-b8b2-d038b6d5a4cf")
 		(sheetname "/")
 		(sheetfile "LipoCharger.kicad_sch")
@@ -2963,6 +2976,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C347480"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e28f0440-13de-4edf-abe0-5f5f75febb82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/5221636e-34ac-4a9f-8161-087e64bdb3a7")
 		(sheetname "/")
 		(sheetfile "LipoCharger.kicad_sch")
@@ -3215,7 +3241,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C59461"
+		(property "LCSC Part #" "C6119863"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5027,7 +5053,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C19702"
+		(property "LCSC Part #" "C6119863"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5788,7 +5814,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C19702"
+		(property "LCSC Part #" "C6119863"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5985,6 +6011,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C98220"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e5bb2a4-1e62-4279-94f7-0f154f447db8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6189,7 +6228,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C19702"
+		(property "LCSC Part #" "C5137636"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6719,7 +6758,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C59461"
+		(property "LCSC Part #" "C6119863"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6933,7 +6972,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C14663"
+		(property "LCSC Part #" "C5137636"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8139,7 +8178,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C98220"
+		(property "LCSC Part #" "C137801"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9875,6 +9914,32 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "9762f9fa-463d-4739-b8e3-9b2195248614")
+	)
+	(gr_text "-"
+		(at 52.5 30.5 0)
+		(layer "F.SilkS")
+		(uuid "1986f1eb-c21f-4860-be1f-20e446462c6c")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 52.5 28 0)
+		(layer "F.SilkS")
+		(uuid "4df430f2-673f-48b2-a8db-bc753684206a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "GND"
 		(at 60.5 54.0125 0)
